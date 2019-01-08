@@ -4,7 +4,7 @@ MiniC를 기반으로 어휘 분석, 파싱, AST 생성 후 이를 활용하여 
 ## 개발 기간 및 환경
 - 기간: 2018.03 ~ 2018.06
 - OS: Linux Ubuntu (VirtualBox)
-- Language: C, C++, MiniC 등
+- Language: C, C++, MiniC
 
 ## 사용 방법
 - 사용 환경: Linux Ubuntu
@@ -15,7 +15,9 @@ make
 ```
 
 - 컴파일러 실행
+
 예제는 mini C 코드이고, 해당 파일은 ```MiniC``` 파일 안에 있다.
+
 ```
 ./minic ./MiniC/add.mc
 ./minic ./MiniC/prime.mc
